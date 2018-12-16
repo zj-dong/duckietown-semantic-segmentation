@@ -1,0 +1,8 @@
+prefix=/home/jason/catkin_ws1/devel
+
+Name: tf_sem_seg
+Description: Description of tf_sem_seg
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jason/catkin_ws1/devel/lib 
+Requires: 

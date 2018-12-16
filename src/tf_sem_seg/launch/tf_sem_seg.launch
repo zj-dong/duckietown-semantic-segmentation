@@ -1,0 +1,6 @@
+<launch>
+	<arg name="veh" doc="Name of vehicle. ex: duckiebot"/>
+	<node name="tf_sem_seg" pkg="tf_sem_seg" type="demo1.py" cwd="node" output="screen">
+		<param name="~veh" value="$(arg veh)"/>
+	</node>
+</launch>
